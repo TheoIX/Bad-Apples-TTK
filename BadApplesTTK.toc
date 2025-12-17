@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: Bad Apples TTK
+## Author: Bad Apples
+## Notes: Guild boss kill timer + TimeToKill blended estimate
+## Version: 0.1.0
+## SavedVariables: BadApplesTTKDB
+
+BadApplesTTK.lua
