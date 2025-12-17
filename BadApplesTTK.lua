@@ -28,6 +28,7 @@ local BossDefaults = {
   ["Sapphiron"] = 124, -- 02:04
   ["Kel'Thuzad"] = 266, -- 04:22
   ["The Four Horsemen"] = 210, -- 03:30
+  ["Heroic Training Dummy"] = 300, -- 05:00 (test)
 }
 
 -- Encounters where the target name is NOT the encounter name.
