@@ -106,8 +106,9 @@ local function FormatTime(sec)
   if not sec or sec < 0 then return "--:--" end
   sec = math.floor(sec + 0.5)
   local h = math.floor(sec / 3600)
-  local m = math.floor((sec % 3600) / 60)
-  local s = sec % 60
+  local m = math.floor((math.mod(sec, 3600)) / 60)
+  local s = math.mod(sec, 60)
+
   if h > 0 then
     return string.format("%d:%02d:%02d", h, m, s)
   end
